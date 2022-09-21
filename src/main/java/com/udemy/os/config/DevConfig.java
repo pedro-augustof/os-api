@@ -22,7 +22,7 @@ public class DevConfig {
 	public boolean instanciaDB() {
 		
 		if (ddl.equals("create")) {
-			this.dbService.instaciaDB();
+			this.dbService.instanciaDB();
 		}
 		
 		return false;
