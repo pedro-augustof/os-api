@@ -42,11 +42,11 @@ public class DBService {
 		Cliente c5 = new Cliente(null, "Albert Einstein", "047.166.710-20", "(88) 98755-4412");
 
 		OS os1 = new OS(null, Prioridade.ALTA, "Trocar fonte do notebook", Status.ANDAMENTO, t1, c1);
-		OS os2 = new OS(null, Prioridade.BAIXA, "Trocar placa mãe", Status.ANDAMENTO, t2, c2);
-		OS os3 = new OS(null, Prioridade.ALTA, "Formatar para linux", Status.ANDAMENTO, t3, c3);
+		OS os2 = new OS(null, Prioridade.BAIXA, "Trocar placa mãe", Status.ENCERRADO, t2, c2);
+		OS os3 = new OS(null, Prioridade.ALTA, "Formatar para linux", Status.ABERTO, t3, c3);
 		OS os4 = new OS(null, Prioridade.MEDIA, "Ativar antivirus", Status.ANDAMENTO, t4, c4);
-		OS os5 = new OS(null, Prioridade.MEDIA, "Criar sistema full stack", Status.ANDAMENTO, t5, c5);
-		OS os6 = new OS(null, Prioridade.BAIXA, "Trocar pasta térmica", Status.ANDAMENTO, t1, c1);
+		OS os5 = new OS(null, Prioridade.MEDIA, "Criar sistema full stack", Status.ENCERRADO, t5, c5);
+		OS os6 = new OS(null, Prioridade.BAIXA, "Trocar pasta térmica", Status.ABERTO, t1, c1);
 
 		t1.getList().add(os1);
 		t1.getList().add(os6);
